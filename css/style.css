@@ -431,7 +431,7 @@ footer{
 }
 .bottom_line {
     background-color: #24282f;
-    border-top: 1px solid #42464c;
+    border-top: 1px solid red;
 }
 .bottom_line_item {
     max-width: 889px;
