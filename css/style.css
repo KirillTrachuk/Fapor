@@ -290,12 +290,12 @@ header nav{
 .clients{
     background-color: #f7f7f7;
     text-align: center;
+    padding-top: 95px;
+    padding-bottom: 93px;
 }
 .clients_say{
     margin: auto;
     max-width: 889px;
-    padding-top: 95px;
-    padding-bottom: 93px;
 }
 .clients h2{
     font-size: 19px;
@@ -486,4 +486,36 @@ footer{
 }
 .footer_social a:hover i{
     color: white;
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: 72px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 50px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 50px;
+    top: 50px;
+}
+.owl-carousel .fa-arrow-right:before{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 50px;
+    top: 50px;
+}
+.owl-carousel .fa-arrow-left:before{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 50px
 }
