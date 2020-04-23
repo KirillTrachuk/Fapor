@@ -498,7 +498,6 @@ footer{
     left: 50px;
     top: 50px;
 }
-
 .owl-carousel .owl-nav button.owl-next{
     position: absolute;
     width: 20px;
@@ -506,17 +505,81 @@ footer{
     right: 50px;
     top: 50px;
 }
-.fa-arrow-right:before{
+
+.fa-chevron-right:before{
     position: absolute;
     width: 20px;
     height: 20px;
     right: 50px;
     top: 50px;
 }
-.fa-arrow-left:before{
+.fa-chevron-left:before{
     position: absolute;
     width: 20px;
     height: 20px;
     left: 50px;
     top: 50px
+}
+
+.ui-accordion .ui-accordion-header{
+    background-color: #fce7f2;
+    padding: 30px 18px;
+    color: #860da6;
+    font-size: 29px;
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+.ui-accordion .ui-accordion-content{
+    background-color: #fef5fa;
+    color: #252525;
+    font-size: 25px;
+    border: none;
+    border-radius: 0;
+}
+.ui-accordion .ui-accordion-header.ui-state-active{
+    background-color: #fef5fa;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: none;
+}
+.ui-accordion .ui-accordion-header:before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #860da6;
+    margin-right: 10px;
+    position: relative;
+    top: -7px;
+}
+.ui-icon{
+    position: absolute;
+    right: 45px;
+    width: 20px;
+    height: 30px;
+    background-image: none;
+    background-position: inherit;
+    text-indent: 0;
+}
+.ui-icon-triangle-1-e:after, ui-icon-triangle-1-s:after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f105";
+    display: block;
+    color: #383b42;
+    font-size: 14px;
+}
+.ui-icon-triangle-1-s:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f107";
+    display: block;
+    color: #383b42;
+    font-size: 14px;
+}
+.ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: none;
+    background-position: inherit;
 }
